@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+    <head>
+        <title>USER DATA</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    </head>
+    <body>
+        <div class="container ml-5 ">
+            
+               
+                    <h1 class="text-center">REGISTRATION FORM</h1>
+               
+               <div class="col-lg-8 m-auto">
+                <form id="formid" method="post" action="insert.php">
+                    <div class="form-group">
+                    Name:<input type="text" class="form-control" formControlName="name" name="name" placeholder="Enter Name"/>
+                    </div>
+                    <div class="form-group">
+                    Username:<input type="text" class="form-control" formControlName="username" name="username" placeholder="Enter UserName"/>
+                    </div>
+                    <div class="form-group">
+                    Password:<input type="password" class="form-control" formControlName="password" name="password" placeholder="Enter Password"/>
+                    </div>
+                    <div class="form-group">
+                        salary:<input type="number" class="form-control" formControlName="sal" name="sal" placeholder="Enter sal"/>
+                        </div>
+                       
+                    <input id="submit" name="submit" class="btn btn-primary" type="submit" value="REGISTER"/>
+
+                </form>
+                <br>
+                <a href="login.html">if you are already user ,<button id="" class="btn btn-primary"  >LOGIN</button></a>
+
+                
+                <!-- <h1 class="text-center">Display  FORM data</h1>
+                <div class="text-center"><button id="show" class="btn btn-danger">Show</button></div>
+                <br>
+                <table class="table text-center  table-bordered table-striped">
+                    <thead>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>UserName</th>
+                        <th>Password</th>
+                    </thead>
+                    <tbody id="response">
+                       
+                    </tbody>
+                </table> -->
+
+            </div>
+        </div>
+        <script src="insert.js"> </script> 
+
+
+    </body>
+</html>
